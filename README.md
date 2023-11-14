@@ -6,11 +6,12 @@ I wrote this because my apartment has one of [these](https://locklypro.com/duo/)
 
 ## Usage
 The program takes an input of a filepath to a txt file that contains the information that is known about the code. There are some rules about formatting the data.
-### Formatting
+###  Formatting
 - All lines **must begin and end** with braces: [1,2,3,4]
 - A range of values is denoted with parenthensis: (1,2,3)
 - A wildcard can be used for a range 0-9: *
-Example Data:
+
+### Example Data
 ```
 [1, 2, (3,4), *]
 [(1,2), 2, 3, 5]

@@ -31,8 +31,6 @@ fn main() {
                     println!("{}", error);
                 }
             }
-
-            println!("{}", &line);
         }
     } else {
         println!("Couldn't Read File: {}", args.input);

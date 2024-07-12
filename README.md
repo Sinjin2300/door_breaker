@@ -2,7 +2,7 @@
 A program written in Rust to determine all possible code combinations when you only know some of the data.
 
 ## Why?
-I wrote this because my apartment has one of [these](https://locklypro.com/duo/) smart locks where the passcode is the same but the numbad has a 'range' of values and you just select the set with the digit you want to press and I wanted to see how easy it would be to enumerate all possible combinations.
+I wrote this because my apartment has one of [these](https://locklypro.com/duo/) smart locks and I wanted to see how hard it would be to enumerate the possible passwords with limited information. In the lock the passcode is the same but the numbad has a 'range' of values that change and you just select the set containing the digit you want to press.
 
 ## Usage
 The program takes an input of a filepath to a txt file that contains the information that is known about the code. There are some rules about formatting the data.
